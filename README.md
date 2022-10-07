@@ -1,6 +1,9 @@
 # kg-project-one
+
 Bootcamp Project One
+ 
  Date of Entry: 10-07-2022
+ 
  The following web design drafts are the expected output for this project.
  ![Landin Page](https://user-images.githubusercontent.com/91439231/194537454-781a11e3-8648-47b7-b494-363dee1be0b1.png)
 ![Works Page](https://user-images.githubusercontent.com/91439231/194537497-98c9cfa4-9321-4188-a9cb-77a80bc11e14.png)
