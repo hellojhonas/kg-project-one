@@ -43,3 +43,14 @@ li {
         display: none;
     }
 }
+
+
+.layout-blue {
+    background-color: blue;
+}
+.layout-red {
+    background-color: crimson;
+}
+.layout-gray {
+    background-color: gray;
+}
