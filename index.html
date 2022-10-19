@@ -12,7 +12,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Montserrat+Alternates:wght@400;600&family=Roboto+Slab:wght@300;400;600&display=swap" rel="stylesheet">
 
-
+    <script src="https://kit.fontawesome.com/a2fc219a24.js" crossorigin="anonymous"></script>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
     <link rel="stylesheet" href="./src/css/main.css">
 
@@ -21,195 +21,247 @@
 
 <body>
   <main>
-      <div class="container">
-        <div class="col">
-          <!-- navbar on desktop-->
-          <div class="row"> 
-            <div class="col pt-3 px-3 align-content-center">
-              <div class="row align-content-between">
-
-                <div class="col-2">
-                    <a class="brand" href="./index.html">
-                        <img src="./src/assets/img/brand.png"  height="60"alt="Jhonas">
-                    </a>
-                </div>
-                <div class="col-10">
-                    <nav class="nav-bar-tabs">
-                        <a href="works.html">Works</a>
-                        <a href="blogs.html">Blogs</a>
-                        <a href="about.html">About</a>
-                    </nav>
-                </div>
-
-                <!-- 
-                  this is the hamburger menu
-                <div class="col-2 py-3 px-3">
-                  <span class="menu ">
-                      <a class="btn btn-outline-dark " data-bs-toggle="collapse" href="#collapseMenu" role="button" aria-expanded="false" aria-controls="collapseMenu">
-                        <img height="25px" src="./src/assets/img/list.svg" alt="menu">
-                      </a>         
-                  </span>
-                </div> -->
-
-              </div>
-
-              <!-- <div class="row text-center">
-                <div class="collapse" id="collapseMenu">
-                  <div class="container-fluid menu">
-                    <ul>
-                      <li class="p-3"><a href="/src/works.html">Works</a></li>
-                      <li class="p-3"><a href="/src/blogs.html">Blogs</a></li>
-                      <li class="p-3"><a href="/src/about.html">About</a></li>
-                    </ul>
-                  </div>
-                </div>
-              </div> -->
-
-            </div>
-        </div>
+    <div class="container">
         
-        <!-- hero text -->
-        <div class="row ">
-            <div class="column text-center">
-                <h1>FULLSTACK  -  UX DESIGN.</h1>
-                <h2>More than web development.</h2>
-                <h4>A fullstack-development-as-a-service provider.</h4>
-                <a href="#"><button class="my-button">  Let's start a project</button></a>
-            </div>
-        </div>
-        
-        <!-- hero image -->
-        <div class="row align-items-center"><img src="./src/assets/img/hero.jpg" alt="" width= "100%" height="auto" id="hero-img">
-        </div>
-
-        <!-- service overview -->
-        <div class="row">
-          <div class="col text-center">
-              <h3>Fullstack Development</h3>
-              <p>Equiped with the latest tech skills that put businesses online</p>
-          </div>
-          <div class="col text-center">
-              <h3>UX Design Professional</h3>
-              <p>A creative UX designer certified by Google.</p>
-          </div>
-        </div>
-
-        <!-- fullstack section intro -->
-        <div class="row">
-          <div class="col">
-            <img src="./src/assets/img/fullstack.jpg" alt="fullstack.jpg" width="100%" height="auto">
-          </div>
-          <div class="col">
-            <h3>Fullstack Development</h3>
-            <p>Is the creation of web application from the front-end to the back-end. The developer provides services that includes assesment of project requirements, UX/UI design, app development, quality assurance and testing, deployment to the web and post-launch support.</p>
-          </div>
-        </div>
-        
-        <!-- ux design section intro -->
-        <div class="row">
-          <div class="col">
-            <h3>UX Design</h3>
-            <p>Equiped with the latest design trends and other industry visual standards. Designing an excellent user experience by making, creating, and organizing the interfaces people interact with. With this, your project is delivered with the top quality visual designs that can scale.</p>
-          </div>
-          <div class="col">
-            <img src="./src/assets/img/uxdesign.jpg" alt="ux design" width="100%" height="auto">
-          </div>
-        </div>
-
-        <!-- testimonials section -->
-        <div class="row">
-          <h2>Testimonials</h2>
-          <div class="col">
-
-            <div class="card text-center img-" style="width: 18rem;">
-              <img src="./src/assets/img/testi-1.png" alt="..." width="60px" height="60px" >
-              <div class="card-body">
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              </div>
-            </div>
-
-          </div>
-
-          <div class="col">
-            <div class="card text-center img-" style="width: 18rem;">
-              <img src="./src/assets/img/testi-2.png" alt="..." width="60px" height="60px" >
-              <div class="card-body">
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              </div>
-            </div>
-          </div>
-
-          <div class="col">
-            <div class="card text-center img-" style="width: 18rem;">
-              <img src="./src/assets/img/testi-3.png" alt="..." width="60px" height="60px" >
-              <div class="card-body">
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              </div>
-            </div>
-          </div>
-
-        </div>
-        
-        <!-- FAQ Section -->
-          <div class="row">
-            <h2 class="accordion">Frequently Asked Questions</h2>
-            <div class="accordion" id="accordionExample">
-              <div class="accordion-item">
-                <h2 class="accordion-header" id="headingOne">
-                  <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                    Question 1
-                  </button>
-                </h2>
-                <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
-                  <div class="accordion-body">
-                    <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
-                  </div>
-                </div>
-              </div>
-              <div class="accordion-item">
-                <h2 class="accordion-header" id="headingTwo">
-                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                    Question 2
-                  </button>
-                </h2>
-                <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
-                  <div class="accordion-body">
-                    <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
-                  </div>
-                </div>
-              </div>
-              <div class="accordion-item">
-                <h2 class="accordion-header" id="headingThree">
-                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                    Question 3
-                  </button>
-                </h2>
-                <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
-                  <div class="accordion-body">
-                    <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
-                  </div>
+      <!-- navbar start -->
+      <div class="row">
+        <nav class="navbar navbar-expand-lg ">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="index.html"><img src="./src/assets/img/brand.png" height="60"alt="Jhonas"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="container">
+              <div class="row">
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                  <ul class="d-flex ms-auto">
+                      <a class="nav-tab" href="works.html">Works</a>
+                      <a class="nav-tab" href="blogs.html">Blogs</a>
+                      <a class="nav-tab" href="about.html">About</a>
+                  </ul>
                 </div>
               </div>
             </div>
           </div>
+        </nav>
+      </div>
+      <!-- navbar end -->
 
-        <!-- hero text -->
-          <div class="row">
-          <div class="column text-center">
-              <h1>Fullstack  ✕  UX Design.</h1>
-              <h2>More than web development.</h2>
-              <h3>A fullstack-development-as-a-service provider.</h3>
-              <a href="#"><button class="my-button">  Let's start a project</button></a>
+      <!-- hero text -->
+      <div class="row justify-content-center ">
+        <div class="col-10 text-center">
+              <h1>Developing and Designing Websites Efficiently</h1>
+              <!-- <h2>More than just web development.</h2> -->
+              <h4>Fullstack-Development-Service.</h4>
+              <a href="#"><button class="button-74 button-74-social" role="button">  Let's start a project</button></a>
           </div>
-          </div>
+      </div>
+      
+      <!-- hero image -->
+      <div class="row align-items-center"><img src="./src/assets/img/hero.jpg" alt="" width= "100%" height="auto" id="hero-img">
+      </div>
 
-        <!-- footer -->
-        <div class="row">
-          <p>Some footer</p>
+      <!-- service overview -->
+      <div class="row py-5 justify-content-center">
+        <div class="col-lg-5 col-md-6 col-sm-12 text-center">
+            <h3>Fullstack Developer</h3>
+            <p> A developer that is equiped with the latest tech skills that put businesses online</p>
         </div>
-
+        <div class="col-lg-5 col-md-6 col-sm-12 text-center">
+            <h3>UX Designer</h3>
+            <p>A professional UX designer certified by Google.</p>
         </div>
       </div>
+
+      <!-- fullstack section intro -->
+      <div class="row text-center">
+        <div class="col-lg-6 col-md-6 col-sm-12">
+          <img src="./src/assets/img/fullstack.jpg" alt="fullstack.jpg" width="auto" height="350px">
+        </div>
+        <div class="col-lg-6 col-md-6 col-sm-12">
+          <h3>Fullstack Development</h3>
+          <p>Is the creation of web application from the front-end to the back-end. The developer provides services that includes assesment of project requirements, UX/UI design, app development, quality assurance and testing, deployment to the web and post-launch support.</p>
+        </div>
+      </div>
+      
+      <!-- ux design section intro -->
+      <div class="row text-center">
+        <div class="col-lg-6 col-md-6 col-sm-12 order-lg-first order-md-first">
+          <h3>UX Design</h3>
+          <p>Equiped with the latest design trends and other industry visual standards. Designing an excellent user experience by making, creating, and organizing the interfaces people interact with. With this, your project is delivered with the top quality visual designs that can scale.</p>
+        </div>
+        <div class="col-lg-6 col-md-6 col-sm-12 order-first">
+          <img src="./src/assets/img/uxdesign.jpg" alt="ux design" width="auto" height="350px">
+        </div>
+      </div>
+
+      <!-- testimonials section -->
+      <div class="row text-center">
+        <div><h2>Testimonials</h2></div>
+        <div class="col-lg-4 col-md-6 col-sm-10">
+
+          <div class="card text-center" style="width: 18rem;" >
+            <div class="col">
+              <img src="./src/assets/img/testi-1.png" alt="..." width="60px" height="60px" >
+              <p>- Martie A.</p>
+            </div>
+            <div class="card-body">
+              <p class="card-text">"Jhonas Website Development Service is worth much more than I paid."</p>
+            </div>
+          </div>
+
+        </div>
+
+        <div class="col-lg-4 col-md-6 col-sm-10">
+          <div class="card text-center img-" style="width: 18rem;">
+            <div class="col">
+              <img src="./src/assets/img/testi-2.png" alt="..." width="60px" height="60px" >
+              <p>- Betty M.</p>
+            </div>
+            <div class="card-body">
+              <p class="card-text">"Jhonas Website Development Service has got everything I need. Without Jhonas Website Development Service, we would have gone bankrupt by now. Jhonas Website Development Service has got everything I need."</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 col-sm-10">
+          <div class="card text-center img-" style="width: 18rem;">
+            <div class="col">
+              <img src="./src/assets/img/testi-3.png" alt="..." width="60px" height="60px" >
+              <p>- Ingunna S.</p>
+            </div>
+            <div class="card-body">
+              <p class="card-text">"It's exactly what I've been looking for. Just what I was looking for."</p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+      
+      <!-- FAQ Section -->
+        <div class="row py-5 text-center">
+          <h3>Frequently Asked Questions</h3>
+          <div class="accordion accordion-flush" id="accordionExample">
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingOne">
+                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                  How much should I expect to pay for a high-performing website?
+                </button>
+              </h2>
+              <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  It all depends on the scope of the project.
+During our first phone meeting, we will try to define the needs and key points of your project: the number of pages, specific functionalities, the urgency or the amount of animations needed are determining factors that will vary the final price.
+
+For example, if all you need is a relevant landing page to increase your conversions, then it will cost you between 2500€ and 3500€. On the other hand, for a complete site with a dozen pages to be designed and integrated, management of the Webflow CMS and the implementation of animations to make navigation more fluid, the cost may increase significantly depending on the inherent complexity of its creation. My goal is always to find a fair price that suits both parties.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingTwo">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                  How long will it take for my site to be operational?
+                </button>
+              </h2>
+              <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  This will depend on your needs:
+- A single landing-page may take between one and three weeks.
+- A complete website with 5-10 pages may take between 6-8 weeks
+
+Of course, these figures are for information purposes only. If you already have all of your content beforehand and you don't have a lot of feedback, then the delivery time will be drastically reduced!
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingThree">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                  Do you offer other services than web design?
+                </button>
+              </h2>
+              <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  Sure! Here is a range of services I can provide for you:
+- Art direction
+- Branding / Graphic design
+- Communication strategy
+- Photography (I invite you to explore my work here
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      <!-- hero text -->
+        <div class="row justify-content-center">
+          <div class="col-10 text-center">
+            <h1>Developing and Designing Websites Efficiently</h1>
+            <!-- <h2>More than just web development.</h2> -->
+            <h4>Fullstack-Development-Service.</h4>
+            <a href="#"><button class="button-74">  Let's start a project</button></a>
+          </div>
+        </div>
+
+      <!-- spacer -->
+      <div class="row">
+        <div class="container">
+          <br>
+          <br>
+          <br>
+          <br>
+        </div>
+      </div>
+
+      <!-- footer-start -->
+      <div class="row pt-5">
+        <div class="col-lg-4 col-sm-12 pb-3">
+          <div class="container justify-content-around">
+            <img src="./src/assets/img/brand.png"  height="80"alt="Jhonas">
+            <p>Developing and designing websites efficiently.</p>
+            <a class="icon" href="https://web.facebook.com/hellojhonas/" target="_blank"><i class="fa-brands fa-square-facebook fa-2xl"></i></a>
+            <a class="icon" href="https://github.com/hellojhonas" target="_blank"><i class="fa-brands fa-square-github fa-2xl "></i></a>
+            <a class="icon" href="#" target="_blank"><i class="fa-brands fa-square-twitter fa-2xl"></i></a>
+            <a class="icon" href="https://www.linkedin.com/in/hellojhonas/" target="_blank"><i class="fa-brands fa-linkedin fa-2xl "></i></a>
+          </div>
+          
+        </div>
+        <div class="col-lg-8 col-sm-12">
+          <div class="row">
+            <div class="col">
+              <div class="container">
+                <h4 style="font-weight: 600;">Menu</h4>
+                <p>Works</p>
+                <p>Blogs</p>
+                <p>About</p>
+              </div>
+            </div>
+            <div class="col-5">
+              <div class="container">
+                <h4 style="font-weight: 600;">Services</h4>
+                <p>Fullstack Development</p>
+                <p>UX Design</p>
+                <p>Graphic Design</p>
+              </div>
+            </div>
+            <div class="col">
+              <div class="container">
+                <h4 style="font-weight: 600;">Legal</h4>
+                <p>Privacy Policy</p>
+                <p>Disclaimer</p>
+                
+              </div>
+            </div>
+          </div>
+        </div>
+          
+      </div>
+      <!-- footer-end -->
+
+      <div class="row text-center">
+        <p>Copyright 2022 Jhonas</p>
+      </div>
+
+    </div>
   </main>
     
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>

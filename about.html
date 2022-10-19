@@ -12,6 +12,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Montserrat+Alternates:wght@400;600&family=Roboto+Slab:wght@300;400;600&display=swap" rel="stylesheet">
 
+    <script src="https://kit.fontawesome.com/a2fc219a24.js" crossorigin="anonymous"></script>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
     <link rel="stylesheet" href="./src/css/main.css">
 
@@ -21,198 +22,128 @@
 <body>
   <main>
     <div class="container">
-      <div class="col">
-        <!-- navbar -->
-        <div class="row">
-          <div class="col pt-3 px-3 align-content-center">
-            <div class="row align-content-between">
-              <div class="col-2">
-                  <a class="brand" href="./index.html">
-                      <img src="./src/assets/img/brand.png"  height="60"alt="Jhonas">
-                  </a>
-              </div>
-              <div class="col-8">
-                  <nav class="nav-bar-tabs">
-                      <a href="index.html">Home</a>
-                      <a href="works.html">Works</a>
-                      <a href="blogs.html">Blogs</a>
-                      <a href="about.html">About</a>
-                  </nav>
-              </div>
-              <div class="col-2 py-3 px-3">
-                <span class="menu ">
-                    <a class="btn btn-outline-dark " data-bs-toggle="collapse" href="#collapseMenu" role="button" aria-expanded="false" aria-controls="collapseMenu">
-                      <img height="25px" src="./src/assets/img/list.svg" alt="menu">
-                    </a>         
-                </span>
+
+      <!-- navbar start -->
+      <div class="row">
+        <nav class="navbar navbar-expand-lg ">
+          <div class="container-fluid">
+
+            <a class="navbar-brand" href="index.html"><img src="./src/assets/img/brand.png" height="60"alt="Jhonas"></a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="d-flex ms-auto">
+                <a class="nav-tab" href="index.html">Home</a>
+                <a class="nav-tab" href="works.html">Works</a>
+                <a class="nav-tab" href="blogs.html">Blogs</a>
+                <a class="nav-tab" href="about.html">About</a>
+              </ul>
+            </div>
+
+          </div>
+        </nav>
+      </div>
+      <!-- navbar end -->
+
+      <!-- information about me -->
+      <div class="row">
+        <div class="col-lg-8 col-md-12 col-sm-12 order-lg-first">
+          <h2>Hi, call me Jhonas</h2>
+          <p>A fullstack developer and UX designer at your service.</p>
+          <p>Hello, I've been honing my skills in full-stack development since January 2021, when I first learned how to program using c++. After that, I found what I like to do, so I dove into front-end development, then eventually doing backend. I've done some application development which I successfully deployed on the web and Play store.</p>
+          <p>And now, I provide a fullstack development service wherein I can apply my skills and develop scalable, tailored, and usable web app that follows a global standards development and design process.</p>
+          <p>Start with a FREE PROJECT ASSESSMENT, to plan, design, and create that amazing web app idea of yours.</p>
+        </div>
+        <div class="col-lg-4 col-md-12 col-sm-12 order-first">
+          <img class="img-fluid" src="./src/assets/img/about-me.png" alt="..." >
+        </div>
+      </div>
+
+      <!-- technologies -->
+      <div class="row">
+        <div class="col text-center">
+          <h2>Technologies</h2>
+          <img src="./src/assets/technologies/Technologies.png" alt="technologies" style="width: 100%; height: auto;">
+          <img src="./src/assets/technologies/Gooogle-trans.png" alt="google workspace" style="width: 100%;height:auto;">
+        </div>
+      </div>
+
+      <!-- values -->
+      <div class="row">
+        <div class="col text-center">
+          <h2>Values</h2>
+          <div class="row justify-content-around">
+            <div class="card text-center" style="width: 18rem;">
+              <div class="card-body">
+                <h5 class="card-title">Autonomy</h5>
+                <p class="card-text">I practive accoutability and self-displine in my area of specialization. I prefer to move fast, make decisions, be efficient and default to action by working full out.</p>
               </div>
             </div>
-            <div class="row text-center">
-              <div class="collapse" id="collapseMenu">
-                <div class="container-fluid menu">
-                  <ul>
-                    <li class="p-3"><a href="/src/works.html">Works</a></li>
-                    <li class="p-3"><a href="/src/blogs.html">Blogs</a></li>
-                    <li class="p-3"><a href="/src/about.html">About</a></li>
-                  </ul>
-                </div>
+            <div class="card text-center" style="width: 18rem;">
+              <div class="card-body">
+                <h5 class="card-title">Growth</h5>
+                <p class="card-text">I am an active learner that aims to utilize up to date application development practices. Meanwhile, outside of work, I like to read, play videogames, watch documentations and focus on personal development.</p>
+              </div>
+            </div>
+          </div>
+          <div class="row justify-content-around">
+            <div class="card text-center" style="width: 18rem;">
+              <div class="card-body">
+                <h5 class="card-title">Positivity</h5>
+                <p class="card-text">I always strive to tackle challenges in an optimistic and opportunistic was.I always assume that other poeple who are in a working environment are innately motivated by the things they are doing and this is what also fuels me to do what I do.</p>
+              </div>
+            </div>
+            <div class="card text-center" style="width: 18rem;">
+              <div class="card-body">
+                <h5 class="card-title">Team Player</h5>
+                <p class="card-text">I am adaptable with working in a team and other teams. I always aim to leverage each others strength and sharing information openly and diliberately as it is a crucial aspect when working in teams.</p>
               </div>
             </div>
           </div>
         </div>
+      </div>
+          
+      <!-- achievements -->
+      <div class="row">
+        <div class="col text-center">
+          <h3>Achievements</h3>
+          <div class="row justify-content-around">
 
-        <!-- information about me -->
-        <div class="row">
-          <div class="col">
-            <h2>Hi, call me Jhonas</h2>
-            <p>A fullstack developer and UX designer at your service.</p>
-            <p>Hello, I've been honing my skills in full-stack development since January 2021, when I first learned how to program using c++. After that, I found what I like to do, so I dove into front-end development, then eventually doing backend. I've done some application development which I successfully deployed on the web and Play store.</p>
-            <p>And now, I provide a fullstack development service wherein I can apply my skills and develop scalable, tailored, and usable web app that follows a global standards development and design.</p>
-            <p>Start with a FREE PROJECT ASSESSMENT, to plan, design, and create that amazing web app idea of yours.</p>
-          </div>
-          <div class="col">
-            <img class="img-fluid" src="./src/assets/img/about-me.png" alt="..." >
-          </div>
-        </div>
-
-        <!-- technologies -->
-        <div class="row">
-          <div class="col text-center">
-            <h2>Technologies</h2>
-
-            <!-- building blocks -->
-            <div class="row">
-                <div class="col">
-                    <img class="w-100 shadow-1-strong rounded" src="./src/assets/technologies/html.png" alt="html">
-                </div>
-                <div class="col">
-                  <img class="w-100 shadow-1-strong rounded" src="./src/assets/technologies/css.png" alt="html">
-                </div>
-                <div class="col">
-                  <img class="w-100 shadow-1-strong rounded" src="./src/assets/technologies/js.png" alt="html">
-                </div>
-                <div class="col">
-                  <img class="w-100 shadow-1-strong rounded" src="./src/assets/technologies/c++.png" alt="html">
-                </div>
-                <div class="col">
-                  <img class="w-100 shadow-1-strong rounded" src="./src/assets/technologies/php.png" alt="html">
-                </div>
-
+            <div class="card" style="width: 18rem;">
+              <img src="./src/assets/thumbnails/kg-certi.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <p class="card-title">KodeGo Fullstack Bootcamp</p>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              </div>
             </div>
 
-            <!-- back-end -->
-            <div class="row">
-              <div class="col">
-                <img class="w-100 shadow-1-strong rounded" src="./src/assets/technologies/firebase.png" alt="html">
+            <div class="card" style="width: 18rem;">
+              <img src="./src/assets/thumbnails/guxd.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <p class="card-title">Google UX Design Professional</p>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
               </div>
-              <div class="col">
-                <img class="w-100 shadow-1-strong rounded" src="./src/assets/technologies/aws.png" alt="html">
-              </div>
-
             </div>
 
-            <!-- frameworks -->
-            <div class="row">
-              <div class="col">
-                <img class="w-100 shadow-1-strong rounded" src="./src/assets/technologies/react.png" alt="html">
+            <div class="card" style="width: 18rem;">
+              <img src="./src/assets/thumbnails/gits.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <p class="card-title">Google IT Support Professional</p>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
               </div>
-              <div class="col">
-                <img class="w-100 shadow-1-strong rounded" src="./src/assets/technologies/flutter.png" alt="html">
-              </div>
-
             </div>
 
-            <!-- System and productivity tools -->
-            <div class="row">
-              <div class="col">
-                <img class="w-100 shadow-1-strong rounded" src="./src/assets/technologies/notion.png" alt="html">
-              </div>
-              <div class="col">
-                <img class="w-100 shadow-1-strong rounded" src="./src/assets/technologies/figma.png" alt="html">
-              </div>
-              <div class="col">
-                <img class="w-100 shadow-1-strong rounded" src="./src/assets/technologies/github.png" alt="html">
-              </div>
-
-            </div>
 
           </div>
         </div>
+      </div>
 
-        <!-- values -->
-        <div class="row">
-          <div class="col text-center">
-            <h2>Values</h2>
-            <div class="row justify-content-around">
-              <div class="card text-center" style="width: 18rem;">
-                <div class="card-body">
-                  <h5 class="card-title">Autonomy</h5>
-                  <p class="card-text">I practive accoutability and self-displine in my area of specialization. I prefer to move fast, make decisions, be efficient and default to action by working full out.</p>
-                </div>
-              </div>
-              <div class="card text-center" style="width: 18rem;">
-                <div class="card-body">
-                  <h5 class="card-title">Growth</h5>
-                  <p class="card-text">I am an active learner that aims to utilize up to date application development practices. Meanwhile, outside of work, I like to read, play videogames, watch documentations and focus on personal development.</p>
-                </div>
-              </div>
-            </div>
-            <div class="row justify-content-around">
-              <div class="card text-center" style="width: 18rem;">
-                <div class="card-body">
-                  <h5 class="card-title">Positivity</h5>
-                  <p class="card-text">I always strive to tackle challenges in an optimistic and opportunistic was.I always assume that other poeple who are in a working environment are innately motivated by the things they are doing and this is what also fuels me to do what I do.</p>
-                </div>
-              </div>
-              <div class="card text-center" style="width: 18rem;">
-                <div class="card-body">
-                  <h5 class="card-title">Team Player</h5>
-                  <p class="card-text">I am adaptable with working in a team and other teams. I always aim to leverage each others strength and sharing information openly and diliberately as it is a crucial aspect when working in teams.</p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-            
-        <!-- achievements -->
-        <div class="row">
-          <div class="col text-center">
-            <h3>Achievements</h3>
-            <div class="row justify-content-around">
-
-              <div class="card" style="width: 18rem;">
-                <img src="./src/assets/thumbnails/kg-certi.png" class="card-img-top" alt="...">
-                <div class="card-body">
-                  <p class="card-title">KodeGo Fullstack Bootcamp</p>
-                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                </div>
-              </div>
-
-              <div class="card" style="width: 18rem;">
-                <img src="./src/assets/thumbnails/guxd.png" class="card-img-top" alt="...">
-                <div class="card-body">
-                  <p class="card-title">Google UX Design Professional</p>
-                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                </div>
-              </div>
-
-              <div class="card" style="width: 18rem;">
-                <img src="./src/assets/thumbnails/gits.png" class="card-img-top" alt="...">
-                <div class="card-body">
-                  <p class="card-title">Google IT Support Professional</p>
-                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                </div>
-              </div>
-
-
-            </div>
-          </div>
-        </div>
-
-        <!-- form and socials -->
-        <div class="row">
-
-          <div class="col">
+      <!-- form and socials -->
+      <div class="row text-center">
+          <div class="col-lg-6 col-md-12 col-sm-12">
             <h3>Let's Start a Project</h3>
             
             <div class="mb-3">
@@ -227,22 +158,86 @@
               <label for="exampleFormControlTextarea1" class="form-label">Example textarea</label>
               <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
             </div>
+  
+          </div>
+  
+          <div class="col-lg-6 col-md-12 col-sm-12">
 
+              <h3>Let's Connect</h3>
+              <div class="row">
+                <a href="#"><button class="button-75" role="button">LinkedIn</button></a>
+              </div>
+              <div class="row">
+                <a href="#"><button class="button-75" role="button">Facebook</button></a>
+              </div>
+              <div class="row">
+                <a href="#"><button class="button-75" role="button">GitHub</button></a>
+              </div>
+              <div class="row">
+                <a href="#"><button class="button-75" role="button">Tiktok</button></a>
+              </div>
+              <div class="row">
+                <a href="#"><button class="button-75" role="button">Twitter</button></a>
+              </div>
+              <div class="row">
+                <a href="#"><button class="button-75" role="button">Instagram</button></a>
+              </div>
           </div>
 
-          <div class="col">
-            <h3>Let's Connect</h3>
-
-          </div>
-
-        </div>
-
-        <!-- footer -->
-        
-
-        <!-- end -->
       </div>
+
+      <!-- footer-start -->
+      <div class="row pt-5">
+        <div class="col-lg-4 col-sm-12 pb-3">
+          <div class="container justify-content-around">
+            <img src="./src/assets/img/brand.png"  height="80"alt="Jhonas">
+            <p>Developing and designing websites efficiently.</p>
+            <!-- <a class="icon" href="https://web.facebook.com/hellojhonas/" target="_blank"><i class="fa-brands fa-square-facebook fa-2xl"></i></a>
+            <a class="icon" href="https://github.com/hellojhonas" target="_blank"><i class="fa-brands fa-square-github fa-2xl "></i></a>
+            <a class="icon" href="#" target="_blank"><i class="fa-brands fa-square-twitter fa-2xl"></i></a>
+            <a class="icon" href="https://www.linkedin.com/in/hellojhonas/" target="_blank"><i class="fa-brands fa-linkedin fa-2xl "></i></a> -->
+          </div>
+          
+        </div>
+        <div class="col-lg-8 col-sm-12">
+          <div class="row">
+            <div class="col">
+              <div class="container">
+                <h4 style="font-weight: 600;">Menu</h4>
+                <p>Works</p>
+                <p>Blogs</p>
+                <p>About</p>
+              </div>
+            </div>
+            <div class="col-5">
+              <div class="container">
+                <h4 style="font-weight: 600;">Services</h4>
+                <p>Fullstack Development</p>
+                <p>UX Design</p>
+                <p>Graphic Design</p>
+              </div>
+            </div>
+            <div class="col">
+              <div class="container">
+                <h4 style="font-weight: 600;">Legal</h4>
+                <p>Privacy Policy</p>
+                <p>Disclaimer</p>
+                
+              </div>
+            </div>
+          </div>
+        </div>
+          
+      </div>
+      <!-- footer-end -->
+
+      <div class="row text-center">
+        <p>Copyright 2022 Jhonas</p>
+      </div>
+
     </div>
   </main>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
 </body>
 </html>
