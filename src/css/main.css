@@ -77,7 +77,9 @@ li {
         display: none;
     }
 }
-
+.bg-brown {
+    background-color:burlywood;
+}
 
 .layout-blue {
     background-color: blue;
