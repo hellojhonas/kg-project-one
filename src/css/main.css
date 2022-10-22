@@ -39,6 +39,9 @@ span{
 li {
     list-style-type: none;
 }
+
+/* classes starts here */
+
 .titles{
     font-weight: 600;
 }
@@ -124,18 +127,6 @@ li {
     padding-right: 5%;
 }
 
-
-
-@media (max-width: 675px) { 
-    .nav-bar-tabs {
-        display: none;
-    }
-}
-@media (min-width: 675px) { 
-    .menu {
-        display: none;
-    }
-}
 .bg-brown {
     background-color:burlywood;
 }
