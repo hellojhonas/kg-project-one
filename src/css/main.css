@@ -39,6 +39,13 @@ span{
 li {
     list-style-type: none;
 }
+.respo-img {
+    height: 500px;
+    width: auto;
+}
+.tech-text {
+    opacity: 70%;
+}
 
 /* classes starts here */
 .normal-text{
@@ -219,14 +226,14 @@ li {
     --offset: 50px; 
   
     position: sticky;
-    bottom: 10px;      
+    bottom: 10px;
     margin-right:10px; 
     place-self: end;
     margin-top: calc(100vh + var(--offset));
 
     background-color: #ffffff;
     border: 2px solid #422800;
-    border-radius: 30px;
+    border-radius: 20px;
     box-shadow: #420000 4px 4px 0 0;
     color: #140e0e;
     cursor: pointer;
@@ -234,7 +241,7 @@ li {
     font-weight: 600;
     font-size: 18px;
     /* padding: 0 18px; */
-    line-height: 40px;
+    line-height: 20px;
     text-align: center;
     text-decoration: none;
     user-select: none;
