@@ -69,6 +69,18 @@ li {
     font-size: 18px;
     -webkit-background-clip: text;
 }
+.gradient {
+    -webkit-text-fill-color: transparent;
+    -webkit-box-decoration-break: clone;
+    background-clip: text;
+
+    background-image: linear-gradient(255deg,#032eff,red);
+    box-decoration-break: clone;
+    color: black;
+    filter: drop-shadow(0 20px 30px #28d8ff33);
+    -webkit-background-clip: text;
+    font-weight: 900;
+}
 .big-text {
     font-size: 32px;
 }
@@ -110,6 +122,16 @@ li {
     backdrop-filter: blur(8.8px);
     -webkit-backdrop-filter: blur(8.8px);
 }
+.glass-service{
+/* From https://css.glass */
+background: rgba(255, 53, 53, 0.28);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(1.4px);
+-webkit-backdrop-filter: blur(1.4px);
+border: 1px solid rgba(255, 53, 53, 0.11);
+}
+
 .nav-tab {
   padding: 20px;
 }
